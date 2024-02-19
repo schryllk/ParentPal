@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Roboto;
+  src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Petit;
+  src: url(fonts/Petit-Cochon.ttf);
+}
+
+@font-face {
+  font-family: Instrument;
+  src: url(fonts/InstrumentSerif-Regular.ttf);
+}
+
+@font-face {
+  font-family: Play;
+  src: url(fonts/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+  font-family: Mont;
+  src: url(fonts/MontserratAlternates-Regular.ttf);
+}
+
+.custom-width {
+  width: 500px;
+}
